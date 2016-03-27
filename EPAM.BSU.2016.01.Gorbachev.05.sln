@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooksCollectionLib", "BooksCollectionLib\BooksCollectionLib.csproj", "{28B6D09A-29FE-45C1-BEE8-BA4E0BB5BB09}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooksServiceLib", "BooksCollectionLib\BooksServiceLib.csproj", "{28B6D09A-29FE-45C1-BEE8-BA4E0BB5BB09}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBooksCollection", "TestBooksCollection\TestBooksCollection.csproj", "{CC214E9D-E2E6-4519-B3BD-ED4CC3B49EEC}"
 EndProject
