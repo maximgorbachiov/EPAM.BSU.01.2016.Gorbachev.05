@@ -4,6 +4,7 @@ using NLog;
 
 namespace BooksServiceLib
 {
+    [Serializable]
     public class Book
     {
         public string Title { get; set; }

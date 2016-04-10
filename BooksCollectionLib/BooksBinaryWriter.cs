@@ -11,7 +11,7 @@ namespace BooksServiceLib
             List<Book> books = new List<Book>();
             int countOfPages;
 
-            if ((filePath != null) && (filePath != ""))
+            if (!string.IsNullOrEmpty(filePath))
             {
                 using (BinaryReader reader = new BinaryReader(new FileStream(filePath, FileMode.Open)))
                 {
@@ -54,7 +54,7 @@ namespace BooksServiceLib
 
         private string CheckStringForWrite(string checkedString)
         {
-            return (checkedString != null) ? checkedString : "";
+            return checkedString ?? "";
         }
     }
 }

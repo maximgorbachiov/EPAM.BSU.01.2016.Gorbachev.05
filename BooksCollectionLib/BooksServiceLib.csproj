@@ -44,8 +44,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BooksBinarySearizator.cs" />
     <Compile Include="BooksBinaryWriter.cs" />
     <Compile Include="BooksService.cs" />
+    <Compile Include="BooksXMLStream.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
